@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/Users/arman/Desktop/android projects/KursValut/ResideMenu/src/main/assets"/><source path="/Users/arman/Desktop/android projects/KursValut/ResideMenu/build/generated/assets/shaders/release"/></dataSet><dataSet config="release"><source path="/Users/arman/Desktop/android projects/KursValut/ResideMenu/src/release/assets"/></dataSet></merger>

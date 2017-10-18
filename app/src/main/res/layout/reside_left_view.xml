@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingRight="90dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:elevation="10dp"
+        android:background="@color/menu_color">
+
+        <Spinner
+            android:id="@+id/city_view"
+            android:layout_width="match_parent"
+            android:layout_marginTop="15dp"
+            style="?android:attr/spinnerMode"
+            android:prompt="@string/city_select"
+            android:background="@android:color/transparent"
+            android:layout_height="50dp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:background="#80dfdfdf"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/bank_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:text="@string/kurs_nbk"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/white"
+                    android:textSize="18dp"
+                    android:elevation="15dp"
+                    android:drawablePadding="15dp"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:drawableTintMode="src_in"
+                    android:drawableTint="@color/white"
+                    android:drawableLeft="@drawable/ic_bank"/>
+
+
+                <TextView
+                    android:id="@+id/currency_select"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:text="@string/valut_select"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/white"
+                    android:textSize="18dp"
+                    android:elevation="15dp"
+                    android:drawablePadding="15dp"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:drawableTintMode="src_in"
+                    android:drawableTint="@color/white"
+                    android:drawableLeft="@drawable/ic_currency_select"/>
+                <TextView
+                    android:id="@+id/punkts_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:text="@string/kurs_exchanger"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/white"
+                    android:textSize="18dp"
+                    android:elevation="15dp"
+                    android:drawablePadding="15dp"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:drawableTintMode="src_in"
+                    android:drawableTint="@color/white"
+                    android:drawableLeft="@drawable/ic_exchanger"/>
+            </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

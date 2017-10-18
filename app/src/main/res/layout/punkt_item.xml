@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:background="@android:color/transparent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/currency_title_background"
+        android:elevation="10dp"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/punkt_name_item"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:singleLine="true"
+            android:gravity="center_vertical"
+            style="?android:attr/textAppearanceButton"
+            android:textColor="@color/white"
+            android:text="Text Example"
+            android:textSize="18dp"/>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:elevation="20dp"
+        android:background="@drawable/currency_title_background">
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/currency_pager"
+            android:layout_margin="5dp"
+            android:layout_centerInParent="true"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </android.support.v4.view.ViewPager>
+        <TextView
+            android:id="@+id/closedView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14dp"
+            android:textAlignment="center"
+            android:padding="5dp"
+            android:background="@drawable/title_closed"
+            style="?android:attr/textAppearanceButton"
+            android:textColor="@android:color/holo_red_dark"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentTop="true"
+            android:text="@string/closed"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/currency_title_background"
+        android:elevation="10dp"
+        android:padding="5dp">
+        <TextView
+            android:id="@+id/punkt_address_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:singleLine="true"
+            android:gravity="center_vertical"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:layout_centerVertical="true"
+            style="?android:attr/textAppearanceButton"
+            android:textColor="@color/white"
+            android:ellipsize="marquee"
+            android:marqueeRepeatLimit ="marquee_forever"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:scrollHorizontally="true"
+            android:text="Text Example"
+            android:layout_marginRight="100dp"
+            android:textSize="14dp"/>
+        <TextView
+            android:id="@+id/distance_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="25 км"
+            android:padding="5dp"
+            android:textSize="14dp"
+            android:layout_marginRight="5dp"
+            android:layout_centerVertical="true"
+            android:drawablePadding="5dp"
+            android:gravity="center"
+            style="?android:attr/borderlessButtonStyle"
+            android:drawableLeft="@drawable/ic_place"
+            android:textColor="@color/white"/>
+    </RelativeLayout>
+
+
+</LinearLayout>

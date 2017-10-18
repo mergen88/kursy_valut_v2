@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Курсы валют</string>
+    <string name="city_select">Выберите город</string>
+    <string name="nbk_address"></string>
+    <string name="city_almaty">Алматы</string>
+    <string name="city_astana">Астана</string>
+    <string name="valut_select">Выбор валют</string>
+    <string name="kzt">% тг.</string>
+    <string name="show_in_map">Показать на карте</string>
+    <string name="sort">Сортировать</string>
+    <string name="kurs_nbk">Курс Народного банка</string>
+    <string name="changed_time">Обновлено: %</string>
+    <string name="kurs_exchanger">Курс в обменниках</string>
+    <string name="loading">Обновление данных...</string>
+    <string name="closed">Закрыто</string>
+    <string name="error_connection">Ошибка подключения, попробуйте позже</string>
+    <string-array name="citys">
+        <item>%Казахстан</item>
+        <item>Алматы</item>
+        <item>Астана</item>
+        <item>Караганда</item>
+        <item>Актобе</item>
+        <item>Риддер</item>
+        <item>Шымкент</item>
+        <item>Тараз</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">Map</string>
+
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/punkt_header"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:text="@string/kurs_exchanger"
+    android:gravity="center_vertical"
+    android:textSize="18dp"
+    android:textColor="@color/white"
+    style="?android:attr/textAppearanceButton"
+    android:drawablePadding="15dp"
+    android:paddingLeft="10dp"
+    android:drawableTintMode="src_in"
+    android:drawableTint="@color/white"
+    android:drawableLeft="@drawable/ic_exchanger"/>
